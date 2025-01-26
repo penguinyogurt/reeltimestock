@@ -1,0 +1,61 @@
+/* The main container for the stock rect */
+.stock-rect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    border-top: 1px solid black;
+  }
+  
+  /* Flex container for company info (ticker and company name) */
+  .company-info {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* Ticker (larger font) */
+  .company-info h1 {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+  }
+  
+  /* Company name (smaller font) */
+  .company-info h2 {
+    font-size: 18px;
+    color: #555; 
+    margin: 0;
+  }
+  
+  /* Price section */
+  .price {
+    display: flex;
+    flex-direction: column; 
+    text-align: right; 
+  }
+  
+  /* Styling for the price */
+  .price p:first-child {
+    font-size: 20px;
+    margin: 0;
+    color: black; 
+  }
+  
+  /* Styling for the percent change */
+  .price p:last-child {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Green color for percent change when stock is up */
+  .price-up {
+    color: green;
+  }
+  
+  /* Red color for percent change when stock is down */
+  .price-down {
+    color: red;
+  }
+  

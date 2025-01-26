@@ -1,0 +1,53 @@
+/* Search bar container */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto; /* Center the search bar */
+    width: 100%;
+  }
+  
+  /* Container for input and magnifying glass button */
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent background */
+    border-radius: 25px;
+    padding: 8px;
+    position: relative; /* To allow absolute positioning of the icon */
+    width: 100%;
+  }
+  
+  /* Style for the input field */
+  .search-input {
+    flex-grow: 1;
+    padding: 8px 30px 8px 12px; /* Extra space on the right for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.05); /* Slightly transparent */
+    color: white; /* Text color */
+    outline: none;
+  }
+  
+  /* Style for the search button (magnifying glass inside the input field) */
+  .search-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; /* Position the icon inside the input field */
+    right: 19px; /* Align it to the right edge */
+    opacity: 0.6; /* Slightly opaque */
+  }
+  
+  /* Add a hover effect for the magnifying glass button */
+  .search-button:hover .search-icon {
+    opacity: 1; /* Full opacity on hover */
+  }
+  
+  /* Optional: Styling for the search icon */
+  .search-icon {
+    color: rgba(255, 255, 255, 0.6); /* Gray and opaque */
+  }

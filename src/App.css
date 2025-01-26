@@ -1,0 +1,29 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.app{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #22133d;
+}
+
+.app_top > h1 { 
+  text-align: center;
+  color: white;
+}
+
+.app_logo{
+  height: 12vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #22133d;
+}
+
+

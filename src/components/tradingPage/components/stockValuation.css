@@ -1,0 +1,43 @@
+.valuation-container {
+  display: flex;
+  flex-direction: column; /* Ensure items are stacked vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calculation-section {
+  text-align: right;
+  margin-bottom: 16px; /* Add spacing between calculation and the button */
+}
+
+.calculation-display {
+  font-size: 24px;
+  font-family: monospace;
+  color: white; /* Set the default text color to white */
+}
+
+.line-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: white; /* Ensure text inside each line-item is white */
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid white; /* Make the divider line white */
+  margin: 8px 0;
+  width: 100%;
+}
+
+.button-container {
+  margin-top: 16px; /* Optional, you can add space above the button */
+  width: 100%; /* Ensure the button doesn't get constrained */
+  display: flex;
+  justify-content: center; /* Center the BuySellButton horizontally */
+}

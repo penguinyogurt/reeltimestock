@@ -1,0 +1,37 @@
+/* The flex container that holds both the pie chart and the legend */
+.pie-chart-container {
+  display: flex;
+  flex-direction: column; /* Stack the chart and legend vertically */
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Pie chart styles */
+.pie-chart {
+  width: 100%;
+  max-width: 402px; /* Adjust to your max width */
+  height: 300px;
+  margin-bottom: 20px; /* Space between chart and legend */
+}
+
+/* Legend container (on the bottom) */
+.legend-container {
+  width: 100%;
+  max-width: 402px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/* Make sure pie chart is responsive */
+@media (max-width: 768px) {
+  .pie-chart-container {
+    padding: 10px;
+  }
+
+  .pie-chart {
+    margin-bottom: 15px;
+  }
+}

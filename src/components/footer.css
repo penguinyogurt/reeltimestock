@@ -1,0 +1,38 @@
+/* Footer container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22133d;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for each link */
+  .footer-link {
+    margin: 0 15px;
+    display: inline-block;
+  }
+  
+  /* Styling for the images/icons */
+  .footer-icon {
+    width: 30px; /* Adjust size of the icons */
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for the icons */
+  .footer-link:hover .footer-icon {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  .footer-icon {
+    font-size: 30px;
+    color: white;
+  }
+
+  .footer-link {
+    margin: 0 20px;
+  }

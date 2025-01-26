@@ -1,0 +1,18 @@
+/* Styling for the Balance Display */
+.balance-card {
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .balance-text {
+    font-size: 30px; /* Balance text size */
+    font-weight: bold;
+    color: white;
+  }

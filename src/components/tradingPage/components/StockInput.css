@@ -1,0 +1,47 @@
+/* Base styling for the stock input card */
+.stock-input-card {
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* Shares Input Row */
+.shares-container {
+  display: flex; /* Align elements horizontally */
+  justify-content: space-between; /* Push label and input to opposite sides */
+  align-items: center; /* Vertically align elements */
+  width: 100%; /* Ensure it spans the full width */
+  margin-bottom: 12px; /* Add space below Shares input */
+}
+
+/* Label for Shares */
+.shares-container label {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Input for Shares */
+.shares-container input {
+  width: 60%; /* Constrain input width to avoid extending too far */
+  padding: 6px; /* Adjust padding for a smaller height */
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: right; /* Align text to the right */
+}
+
+/* Stock Price Row */
+.price-container {
+  display: flex; /* Align label and price horizontally */
+  justify-content: space-between; /* Push "Stock Prices" to the left and the value to the right */
+  align-items: center; /* Vertically align elements */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.price-container span {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}

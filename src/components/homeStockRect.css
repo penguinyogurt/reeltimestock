@@ -1,0 +1,53 @@
+/* stock price is down */
+.stock-rect-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, orange, pink);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .stock-rect-down h1 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+  }
+  
+  .stock-rect-down p {
+    font-size: 20px;
+    color: rgb(241, 71, 71); /* Red text for price */
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* stock price is up */
+  .stock-rect-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #a8ff78, #78ffd6); /* Light green gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .stock-rect-up h1 {
+    font-size: 24px;
+    color: rgb(59, 52, 52);
+    margin: 0;
+  }
+  
+  .stock-rect-up p {
+    font-size: 20px;
+    color: #2e7d32; /* Green text for price */
+    margin: 0;
+    font-weight: bold;
+  }
+  

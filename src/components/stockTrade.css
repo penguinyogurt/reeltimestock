@@ -1,0 +1,55 @@
+/* Base styling for the stock card */
+.stock-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for stocks going up (Green) */
+  .stock-card-up {
+    border-color: #4caf50;
+    background-color: #e8f5e9;
+  }
+  
+  /* Styling for stocks going down (Red) */
+  .stock-card-down {
+    border-color: #f44336;
+    background-color: #ffebee;
+  }
+  
+  /* Text styling */
+  .stock-ticker {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .company-name {
+    font-size: 16px;
+    color: #757575;
+    margin: 8px 0;
+  }
+  
+  .stock-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  .percent-change {
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: bold;
+  }
+  
+  .percent-up {
+    color: #4caf50; /* Green for positive change */
+  }
+  
+  .percent-down {
+    color: #f44336; /* Red for negative change */
+  }

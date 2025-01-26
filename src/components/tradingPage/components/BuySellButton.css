@@ -1,0 +1,44 @@
+/* Container for the Buy/Sell buttons */
+.buy-sell-button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%; /* Ensure the container spans the full width */
+}
+
+/* Base styling for the action buttons */
+.action-btn {
+  width: 150px;  /* Increase the width to make buttons larger */
+  padding: 15px 30px; /* Increase padding for a bigger button */
+  font-size: 20px; /* Larger text inside the button */
+  font-weight: bold;
+  border-radius: 30px; /* Round corners for the buttons */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center; /* Ensure text is centered */
+}
+
+/* Styling for the Buy button when active */
+.active-buy {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+/* Styling for the Sell button when active */
+.active-sell {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+/* Default button styling */
+.action-btn:hover {
+  opacity: 0.8; /* Add hover effect for buttons */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Focus state (optional, to make button focus more visible) */
+.action-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7); /* Optional: subtle focus glow */
+}
